@@ -3,6 +3,10 @@
 	"ignore": "test",
 	"package": [
 		{
+			"path": "./a",
+			"revision": ""
+		},
+		{
 			"checksumSHA1": "l0iFqayYAaEip6Olaq3/LCOa/Sg=",
 			"path": "github.com/armon/circbuf",
 			"revision": "bbbad097214e2918d8543d5201d12bfd7bca254d",
@@ -81,10 +85,14 @@
 			"revisionTime": "2015-12-06T04:24:12Z"
 		},
 		{
-			"checksumSHA1": "+i4GBvhxBpAfDnvTdfumEn7JL5A=",
+			"checksumSHA1": "aIRlSPLiE0EP+nZV2JjpbJk/sdg=",
+			"origin": "github.com/medallia/memberlist",
 			"path": "github.com/hashicorp/memberlist",
-			"revision": "9800c50ab79c002353852a9b1095e9591b161513",
-			"revisionTime": "2016-12-13T23:44:46Z"
+			"revision": "df86349ca47a64b5586cb402a68538f81afb9b06",
+			"revisionTime": "2017-12-20T21:49:37Z",
+			"tree": true,
+			"version": "medallia-zone-support",
+			"versionExact": "medallia-zone-support"
 		},
 		{
 			"checksumSHA1": "xZuhljnmBysJPta/lMyYmJdujCg=",
@@ -120,6 +128,12 @@
 			"path": "golang.org/x/sys/unix",
 			"revision": "7a56174f0086b32866ebd746a794417edbc678a1",
 			"revisionTime": "2016-03-02T21:58:15+02:00"
+		},
+		{
+			"checksumSHA1": "asgzE1io9BoxuCmYftM79qtoePI=",
+			"path": "golang.org/x/tools/go/gcimporter15/testdata",
+			"revision": "25101aadb97aa42907eee6a238d6d26a6cb3c756",
+			"revisionTime": "2018-01-25T02:48:19Z"
 		}
 	],
 	"rootPath": "github.com/hashicorp/serf"

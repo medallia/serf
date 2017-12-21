@@ -30,6 +30,10 @@ type Config struct {
 
 	// TCPTimeout is the timeout for establishing a TCP connection with
 	// a remote node for a full state sync.
+
+	// ZoneId is the zone identify which members to consider
+	ZoneId uint8
+
 	TCPTimeout time.Duration
 
 	// IndirectChecks is the number of nodes that will be asked to perform
@@ -228,6 +232,7 @@ func DefaultLANConfig() *Config {
 		DNSConfigPath: "/etc/resolv.conf",
 
 		HandoffQueueDepth: 1024,
+		ZoneId: 0,
 	}
 }
 
